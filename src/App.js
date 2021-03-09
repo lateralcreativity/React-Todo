@@ -40,7 +40,7 @@ class App extends React.Component {
   clearHandler = () => {
     this.setState({
       list: this.state.list.filter(task => !task.completed)
-    });
+    })
   }
 
   render() {
